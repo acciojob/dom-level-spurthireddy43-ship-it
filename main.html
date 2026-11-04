@@ -16,6 +16,16 @@
 		<li>Item 10</li>
 	</ul>
     <script type="text/javascript" src="./script.js">
+		const element=document.getElementById("level")
+let count=0
+let currentElement= element
+while(currentElement){
+	count++
+	currentElement = currentElement.parentElement
+	console.log(currentElement)
+}
+	alter("The level of the element is:4")
+})
 </script>
 </body>
 </html>
